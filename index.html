@@ -20,7 +20,7 @@
 <body>
 
     <!----NAVBAR---->
-    <nav id="navbar-example2" class="navbar sticky-top navbar-dark bg-dark  px-3 mb-3">
+    <nav id="navbar-example2" class="navbar sticky-top navbar-dark bg-dark  px-3 mb-3 bar1">
         <a class="navbar-brand" href="#">Tuniverse Productions</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
@@ -46,6 +46,46 @@
         </ul>
     </nav>
 
+    <!--NAVBAR SMALL-->
+    <nav class="navbar navbar-dark bg-dark  fixed-top bar2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tuniverse Productions</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas bg-dark text-white offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Tuniverse Productions</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#welcome">Welcome</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#protfolio">Protfolio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pricing
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#coverprice">Cover Songs</a></li>
+                    <li><a class="dropdown-item" href="#originalprice">Original Songs</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactus">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
 
     <div class="parallax" id="welcome">
         <div class="container-sm top">
@@ -596,22 +636,30 @@
 
     <div class="parallax stts" style="height: 30vh;">
         <div class="row statsm">
-            <div class="col stats">
+            <div class="row stats">
                 <center>
                     <h2>100</h2>
                     <h4>PROJECTS</h4>
                 </center>
             </div>
-            <div class="col stats">
+        </div>
+    </div>
+    <div class="parallax stts" style="height: 30vh;">
+        <div class="row statsm">
+            <div class="row stats">
+                <center>
+                    <h2>100</h2>
+                    <h4>PROJECTS</h4>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="parallax stts" style="height: 30vh;">
+        <div class="row statsm">
+            <div class="row stats">
                 <center>
                     <h2>100</h2>
                     <h4>Video Productions</h4>
-                </center>
-            </div>
-            <div class="col stats">
-                <center>
-                    <h2>100</h2>
-                    <h4>PROJECTS</h4>
                 </center>
             </div>
         </div>

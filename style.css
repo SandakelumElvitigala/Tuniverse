@@ -18,12 +18,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -15vh;
 }
 
 .animation {
   height:80px;
   overflow:hidden;
   margin-left: 1rem;
+  font-size: 25px;
 }
 
 .animation > div > div {
@@ -35,7 +37,10 @@ p {
 
 .animation div:first-child {
   animation: text-animation 8s infinite;
+  height: 90px;
 }
+
+
 
 .first div {
   background-color:#20a7d8;
@@ -60,7 +65,9 @@ p {
   100% {margin-top: 0;}
 }
 
-
+.bar2{
+    visibility: hidden;
+}
 
 @media only screen and (max-width: 600px) {
     main{
@@ -71,8 +78,17 @@ p {
         height: 100px;
         font-size: 15px;
     }
-    .stats{
-        height: 90vh;
+    .container{
+        font-size: 25px;
+    }
+    .bar1{
+        visibility: hidden;
+    }
+    .bar2{
+        visibility: inherit;
+    }
+    .animation div:first-child{
+        height: 50px;
     }
   }
 
@@ -196,9 +212,14 @@ p {
 .carousel-caption h5, .carousel-caption p {
     color: #fff; /* white text */
 }
-
-.stats{
+.statsm{
     height: 30vh;
+}
+.stts{
+    height: 30vh;
+}
+.stats{
+    height: 10vh;
     width: 10vw;
     color: white;
     font-weight: 300;
