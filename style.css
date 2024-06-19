@@ -1,6 +1,7 @@
 
 body {
     font-family:'Roboto'; 
+    background-color: #000;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
@@ -20,13 +21,13 @@ p {
 }
 
 .animation {
-  height:70px;
+  height:80px;
   overflow:hidden;
   margin-left: 1rem;
 }
 
 .animation > div > div {
-  padding: 0.25rem 0.75rem;
+  padding: 0.01rem 0.5rem;
   height:2.81rem;
   margin-bottom: 2.81rem;
   display:inline-block;
@@ -189,4 +190,27 @@ p {
 }
 .carousel-caption h5, .carousel-caption p {
     color: #fff; /* white text */
+}
+
+.stats{
+    height: 30vh;
+    width: 10vw;
+    color: white;
+    font-weight: 300;
+    font-size: 10vh;
+    /*background: #000;*/
+}
+
+.stats h2{
+    margin-top: 10vh;
+    font-weight: 900;
+}
+
+.contact{
+    background-color: #00000063;
+    color: white;
+}
+
+.dev{
+    color: white;
 }
