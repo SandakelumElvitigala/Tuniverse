@@ -1,0 +1,242 @@
+
+body {
+    font-family:'Roboto'; 
+    background-color: #000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+p {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15vh;
+}
+
+.animation {
+  height:80px;
+  overflow:hidden;
+  margin-left: 1rem;
+  font-size: 25px;
+}
+
+.animation > div > div {
+  padding: 0.01rem 0.5rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+  height: 90px;
+}
+
+
+
+.first div {
+  background-color:#20a7d8;
+}
+.second div {
+  background-color:#CD921E;
+}
+.third div {
+  background-color:#c10528;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+.bar2{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        font-size: x-small;
+        font-weight: 100;
+    }
+    .animation{
+        height: 100px;
+        font-size: 15px;
+    }
+    .container{
+        font-size: 25px;
+    }
+    .bar1{
+        visibility: hidden;
+    }
+    .bar2{
+        visibility: inherit;
+    }
+    .animation div:first-child{
+        height: 50px;
+    }
+  }
+
+.services{
+    color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(https://images.pexels.com/photos/2876659/pexels-photo-2876659.jpeg?auto=compress&cs=tinysrgb&w=600);
+  
+    /* Full height */
+    height: auto; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-sm{
+    background-color: #1d1a1a99;
+}
+
+
+
+.carousel {
+    height: 50vh;
+    background-color: #ffffff1a;
+}  
+
+.carousel-control-prev{
+    color: black;
+}
+
+.cont1{
+    background-color: #030303fa;
+    color: white;
+}
+
+.second{
+    color: white;
+}
+
+.columnwhy{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.accordion{
+    width: 80vw;
+}
+
+.cont{
+    aspect-ratio: 16 / 9; /* 16:9 aspect ratio */
+    max-width: 800px; /* Initial width */
+    max-height: 450px; /* Initial height */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cover{
+    aspect-ratio: 16 / 9; /* 16:9 aspect ratio */
+    max-width: 800px; /* Initial width */
+    max-height: 450px; /* Initial height */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Set the aspect ratio for the video container */
+.video-container {
+    aspect-ratio: 16 / 9; /* 16:9 aspect ratio */
+    max-width: 800px; /* Initial width */
+    max-height: 450px; /* Initial height */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.cont2{
+    background-color: #030303;
+    color: white;
+}
+
+.elfsight-app-6233d619-6591-4ea5-a4af-21b9ebf74fe4 {
+    color: white !important;
+}
+.elfsight-app-6233d619-6591-4ea5-a4af-21b9ebf74fe4 * {
+    color: white !important;
+}
+
+/* Custom accordion and carousel styles */
+.accordion-button {
+    background-color: #343a40; /* dark background color */
+    color: #fff; /* white text */
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #495057; /* slightly lighter dark color */
+}
+.accordion-body {
+    background-color: #343a40; /* dark background color */
+    color: #fff; /* white text */
+}
+.carousel-caption h5, .carousel-caption p {
+    color: #fff; /* white text */
+}
+.statsm{
+    height: 30vh;
+}
+.stts{
+    height: 30vh;
+}
+.stats{
+    height: 10vh;
+    width: 10vw;
+    color: white;
+    font-weight: 300;
+    font-size: 10vh;
+}
+
+.stats h2{
+    margin-top: 10vh;
+    font-weight: 900;
+}
+
+.contact{
+    background-color: #00000063;
+    color: white;
+}
+
+.dev{
+    color: white;
+}
+
